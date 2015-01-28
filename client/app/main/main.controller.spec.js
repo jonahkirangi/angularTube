@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('angularTubeApp'));
+  beforeEach(module('angularTubeApp', 'socketMock'));
 
   var MainCtrl, scope;
 
